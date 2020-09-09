@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Dealer
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Dealer\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Dealer()
+comment1.text=\r\n\ constructor\ for\ the\ dealer,\ creates\ a\ new\ hand\r\n\ @param\:\ NONE\r\n\ @return\:\ NONE\r\n
+comment2.params=s1
+comment2.target=void\ result(Shoe)
+comment2.text=\r\n\ dtermines\ whether\ or\ not\ the\ dealer\ should\ hit\ or\ not,\ the\ dealer\ hits\ while\ the\ value\ of\ the\ hand\ is\ \r\n\ less\ than\ 17\r\n\ @param\:\ Shoe\ -\ the\ shoe\ that\ tha\ cards\ are\ being\ taken\ from\r\n\ @return\:\ NONE\r\n
+comment3.params=s1
+comment3.target=void\ addCard(Shoe)
+comment3.text=\r\n\ adds\ a\ card\ to\ the\ dealers\ hand\r\n\ @param\:\ Shoe\ -\ the\ shoe\ that\ the\ cards\ are\ being\ taken\ from\r\n\ @return\:\ NONE\r\n
+comment4.params=i
+comment4.target=void\ printCard(int)
+comment4.text=\r\n\ prints\ out\ a\ card\ at\ a\ certain\ position\ in\ the\ dealers\ hand\r\n\ @param\:\ int\ -\ the\ position\ of\ the\ card\ to\ be\ printed\r\n\ @return\:\ NONE\r\n
+comment5.params=
+comment5.target=Hand\ getHand()
+comment5.text=\r\n\ returns\ the\ dealers\ hand\r\n\ @param\:\ NONE\r\n\ @return\:\ hand\ -\ the\ dealers\ hand\r\n
+numComments=6

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Hand
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Hand\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Hand()
+comment1.text=\r\n\ contructor\ for\ a\ hand,\ creates\ a\ new\ arraylist\ full\ of\ cards\r\n\ @param\:\ NONE\r\n\ @return\:\ NONE\r\n
+comment2.params=
+comment2.target=int\ getValue()
+comment2.text=\r\n\ determines\ the\ value\ of\ the\ hand\ by\ taking\ the\ value\ of\ each\ card\ and\ adding\ it\ to\ a\ total\ \r\n\ @param\:\ NONE\r\n\ @return\:\ the\ total\ value\ of\ all\ the\ cards\ in\ a\ hand\r\n
+comment3.params=
+comment3.target=boolean\ blackjack()
+comment3.text=\r\n\ checks\ if\ the\ hand\ value\ is\ equal\ to\ 21\ and\ has\ 2\ cardsand\ if\ it\ is,\ then\ it\ returns\ blackjack\ as\ true,\r\n\ if\ it\ does\ not,\ then\ false\ is\ returned\r\n\ @param\:\ NONE\r\n\ @return\:\ boolean\ -\ true\ if\ blackjack\ false\ if\ not\r\n
+comment4.params=
+comment4.target=boolean\ bust()
+comment4.text=\r\n\ checks\ if\ the\ hand\ value\ is\ greater\ than\ 21,\ if\ so,\ then\ the\ method\ returns\ true,\ if\ not,\ then\ \r\n\ false\ is\ returned\r\n\ @param\:\ NONE\r\n\ @return\:\ boolean\ -\ true\ if\ bust,\ false\ if\ not\r\n
+comment5.params=s1
+comment5.target=void\ hit(Shoe)
+comment5.text=\r\n\ adds\ a\ card\ the\ the\ hand\ \r\n\ @param\:\ NONE\r\n\ @return\:\ NONE\r\n
+comment6.params=
+comment6.target=java.util.ArrayList\ getHand()
+comment6.text=\r\n\ gets\ the\ hand\r\n\ @param\:\ NONE\r\n\ @return\:\ ArrayList\ -\ the\ hand\ full\ of\ cards\r\n
+comment7.params=
+comment7.target=void\ clearHand()
+comment7.text=\r\n\ "clears"\ the\ hand\ by\ creating\ a\ new\ one\ so\ the\ hand\ is\ empty\r\n\ @param\:\ NONE\r\n\ @return\:\ NONE\r\n
+numComments=8

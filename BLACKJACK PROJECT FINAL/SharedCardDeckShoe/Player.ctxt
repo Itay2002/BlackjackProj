@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Player
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Player\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Player()
+comment1.text=\r\n\ contructor\ for\ a\ player,\ creates\ a\ new\ hand\ and\ sets\ the\ chips\ value\ equal\ to\ 1000\r\n\ @param\:\ NONE\r\n\ @return\:\ NONE\r\n
+comment2.params=
+comment2.target=Hand\ getHand()
+comment2.text=\r\n\ returns\ the\ players\ hand\r\n\ @param\:\ NONE\r\n\ @return\:\ hand\ -\ the\ players\ hand\r\n
+comment3.params=result
+comment3.target=void\ addChips(int)
+comment3.text=\r\n\ checks\ to\ see\ if\ the\ player\ has\ blackjack,\ a\ bust,\ if\ their\ value\ is\ equal\ to\ 21,\ and\ if\ the\ value\ is\ \r\n\ less\ than\ 21,\ when\ these\ conditions\ are\ met,\ chips\ are\ added\ and\ subtracted\ accordingly\r\n\ @param\:\ int\ -\ the\ amount\ of\ chips\ to\ be\ added\ or\ subtracted\ \r\n\ @return\:\ NONE\r\n
+comment4.params=s1
+comment4.target=void\ addCard(Shoe)
+comment4.text=\r\n\ adds\ a\ card\ to\ the\ players\ hand\r\n\ @param\:\ Shoe\ -\ the\ shoe\ that\ the\ cards\ aee\ being\ taken\ from\r\n\ @return\:\ NONE\r\n
+comment5.params=bet
+comment5.target=int\ doubleDown(int)
+comment5.text=\r\n\ takes\ the\ players\ bet\ and\ multiplies\ it\ by\ two\r\n\ @param\:\ int\ -\ the\ players\ bet\r\n\ @return\:\ int\ -\ the\ players\ bet\ multiplied\ by\ 2\r\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ prints\ out\ the\ cards\ in\ tha\ players\ handsw\r\n\ @param\:\ NONE\r\n\ @return\:\ string\ -\ the\ cards\ in\ the\ players\ hand\ with\ their\ suit\ and\ rank\r\n
+comment7.params=
+comment7.target=int\ getChips()
+comment7.text=\r\n\ gets\ the\ amount\ of\ chips\ that\ the\ player\ has\r\n\ @param\:\ NONE\r\n\ @return\:\ int\ -\ the\ number\ of\ chips\ the\ player\ has\r\n
+numComments=8
